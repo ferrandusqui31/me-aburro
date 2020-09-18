@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: #DEDEDE;
+}
+
+h1 {
+    font-size: 300%;
+    margin: 1%;
+}
+header p, footer, h1{
+    text-align: center;
+}
+
+ header p{
+    background: #3F3F3F;
+    overflow: scroll;
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.lista1{
+    background: #FF9E00;
+}
+
+.lista2{
+    background: #00BFFF;
+}
+
+.lista3{
+    background: #F3FF00;
+}
+
+.lista1, .lista2, .lista3{
+    display: inline;
+    padding: 3%;
+    margin: 2%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    max-height: 369px;
+    max-width: 350px;
+    overflow-y: scroll;
+    float: left;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.lista1 li, .lista2 li, .lista3 li{
+    font-size: 20px;
+}
+
+.lista1 button{
+    background: #E87400;
+    border-color: #000;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.lista1 button:active{
+    background: #BD5E00;
+}
+
+footer{
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    clear: both;
+}
