@@ -27,7 +27,7 @@ footer{
     background: #000;
     color: #fff;
     padding: 10px;
-    position: fixed;
+    position: relative;
     padding-right: calc(50% - 59px);
     padding-left: calc(50% - 59px);
     top: calc(100% - 40px);
@@ -89,4 +89,24 @@ h3{
 
 .lista1 button:active{
     background: #BD5E00;
+}
+
+@media only screen and (max-width: 1072px){
+    main{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 861px){
+    main{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 633px){
+    main{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding-bottom: 15px;
+    }
 }
