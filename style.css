@@ -15,7 +15,7 @@ header p, footer, h1{
     text-align: center;
 }
 
- header p{
+header p{
     background: #3F3F3F;
     overflow: scroll;
     padding: 20px;
@@ -27,7 +27,7 @@ footer{
     background: #000;
     color: #fff;
     padding: 10px;
-    position: relative;
+    position: fixed;
     padding-right: calc(50% - 59px);
     padding-left: calc(50% - 59px);
     top: calc(100% - 40px);
@@ -87,6 +87,10 @@ h3{
     cursor: pointer;
 }
 
+.lista1 button:hover{
+    background: #DB7109;
+}
+
 .lista1 button:active{
     background: #BD5E00;
 }
@@ -101,6 +105,11 @@ h3{
     main{
         grid-template-columns: repeat(2, 1fr);
     }
+    
+    footer{
+        position: relative;
+        top: calc(100% - 40px);
+    }
 }
 
 @media only screen and (max-width: 633px){
@@ -108,5 +117,10 @@ h3{
         grid-template-columns: 1fr;
         justify-items: center;
         padding-bottom: 15px;
+    }
+    
+    footer{
+        position: relative;
+        top: calc(100% - 40px);
     }
 }
